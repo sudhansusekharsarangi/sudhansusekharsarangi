@@ -74,16 +74,6 @@ As I continue learning, this section will include my best projects.
 
 ---
 
-## 📈 Contribution Graph
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sudhansusekharsarangi&theme=tokyo-night"/>
-
-</p>
-
----
-
 ## ✨ Quote of the Day
 
 > *"The expert in anything was once a beginner."*
