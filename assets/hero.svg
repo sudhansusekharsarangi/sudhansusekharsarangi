@@ -606,133 +606,132 @@
     </text>
 
 
-    <!-- =================================================
-         SKILL TAGS
-    ================================================== -->
+<!-- =================================================
+     SKILL TAGS
+================================================= -->
 
-    <!-- Java -->
+<g transform="translate(15, 0)">
 
-    <rect
-      x="385"
-      y="345"
-      width="90"
-      height="32"
-      rx="16"
-      fill="#071426"
-      stroke="#38bdf8"
-      stroke-opacity=".6"
-    />
+<!-- Java -->
+<rect
+  x="330"
+  y="345"
+  width="90"
+  height="32"
+  rx="16"
+  fill="#071426"
+  stroke="#38bdf8"
+  stroke-opacity=".6"
+/>
 
-    <text
-      x="430"
-      y="366"
-      text-anchor="middle"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="14"
-      fill="#e0f2fe"
-    >
-      Java
-    </text>
-
-
-    <!-- Python -->
-
-    <rect
-      x="490"
-      y="345"
-      width="100"
-      height="32"
-      rx="16"
-      fill="#071426"
-      stroke="#60a5fa"
-      stroke-opacity=".6"
-    />
-
-    <text
-      x="540"
-      y="366"
-      text-anchor="middle"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="14"
-      fill="#e0f2fe"
-    >
-      Python
-    </text>
+<text
+  x="375"
+  y="366"
+  text-anchor="middle"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="14"
+  fill="#e0f2fe"
+>
+  Java
+</text>
 
 
-    <!-- DSA -->
+<!-- Python -->
+<rect
+  x="435"
+  y="345"
+  width="100"
+  height="32"
+  rx="16"
+  fill="#071426"
+  stroke="#60a5fa"
+  stroke-opacity=".6"
+/>
 
-    <rect
-      x="605"
-      y="345"
-      width="80"
-      height="32"
-      rx="16"
-      fill="#071426"
-      stroke="#a78bfa"
-      stroke-opacity=".7"
-    />
-
-    <text
-      x="645"
-      y="366"
-      text-anchor="middle"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="14"
-      fill="#ede9fe"
-    >
-      DSA
-    </text>
-
-
-    <!-- AI/ML -->
-
-    <rect
-      x="700"
-      y="345"
-      width="90"
-      height="32"
-      rx="16"
-      fill="#071426"
-      stroke="#f0abfc"
-      stroke-opacity=".65"
-    />
-
-    <text
-      x="745"
-      y="366"
-      text-anchor="middle"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="14"
-      fill="#fdf4ff"
-    >
-      AI / ML
-    </text>
+<text
+  x="485"
+  y="366"
+  text-anchor="middle"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="14"
+  fill="#e0f2fe"
+>
+  Python
+</text>
 
 
-    <!-- Web -->
+<!-- DSA -->
+<rect
+  x="550"
+  y="345"
+  width="80"
+  height="32"
+  rx="16"
+  fill="#071426"
+  stroke="#a78bfa"
+  stroke-opacity=".7"
+/>
 
-    <rect
-      x="805"
-      y="345"
-      width="75"
-      height="32"
-      rx="16"
-      fill="#071426"
-      stroke="#fdba74"
-      stroke-opacity=".6"
-    />
+<text
+  x="590"
+  y="366"
+  text-anchor="middle"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="14"
+  fill="#ede9fe"
+>
+  DSA
+</text>
 
-    <text
-      x="842"
-      y="366"
-      text-anchor="middle"
-      font-family="Arial, Helvetica, sans-serif"
-      font-size="14"
-      fill="#fff7ed"
-    >
-      Web
-    </text>
+
+<!-- AI/ML -->
+<rect
+  x="645"
+  y="345"
+  width="90"
+  height="32"
+  rx="16"
+  fill="#071426"
+  stroke="#f0abfc"
+  stroke-opacity=".65"
+/>
+
+<text
+  x="690"
+  y="366"
+  text-anchor="middle"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="14"
+  fill="#fdf4ff"
+>
+  AI / ML
+</text>
+
+
+<!-- Web Dev -->
+<rect
+  x="750"
+  y="345"
+  width="90"
+  height="32"
+  rx="16"
+  fill="#071426"
+  stroke="#fdba74"
+  stroke-opacity=".6"
+/>
+
+<text
+  x="795"
+  y="366"
+  text-anchor="middle"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="14"
+  fill="#fff7ed"
+>
+  Web Dev
+</text>
+
+</g>
 
 
     <!-- =================================================
