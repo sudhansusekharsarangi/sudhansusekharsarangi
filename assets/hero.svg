@@ -1,0 +1,432 @@
+<svg width="1200" height="500" viewBox="0 0 1200 500"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Background -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="55%" stop-color="#07152f"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <!-- Name gradient -->
+    <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#dbeafe"/>
+      <stop offset="45%" stop-color="#c084fc"/>
+      <stop offset="75%" stop-color="#f0abfc"/>
+      <stop offset="100%" stop-color="#fed7aa"/>
+    </linearGradient>
+
+    <!-- Water gradient -->
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f2a4d"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+
+    <!-- Moon glow -->
+    <radialGradient id="moonGlow">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".9"/>
+      <stop offset="35%" stop-color="#bfdbfe" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Cloud gradient -->
+    <linearGradient id="cloud" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#243858"/>
+      <stop offset="100%" stop-color="#081426"/>
+    </linearGradient>
+
+    <!-- Soft glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+
+    <!-- Clip -->
+    <clipPath id="scene">
+      <rect width="1200" height="500" rx="18"/>
+    </clipPath>
+
+  </defs>
+
+
+  <!-- ===================================================== -->
+  <!-- BACKGROUND -->
+  <!-- ===================================================== -->
+
+  <g clip-path="url(#scene)">
+
+    <rect width="1200" height="500" fill="url(#sky)"/>
+
+
+    <!-- ================================================= -->
+    <!-- STARS -->
+    <!-- ================================================= -->
+
+    <g fill="#dbeafe">
+
+      <circle cx="90" cy="65" r="1.5"/>
+      <circle cx="170" cy="105" r="1"/>
+      <circle cx="265" cy="52" r="1.4"/>
+      <circle cx="350" cy="88" r="1"/>
+      <circle cx="460" cy="42" r="1.3"/>
+      <circle cx="560" cy="75" r="1"/>
+      <circle cx="650" cy="48" r="1.4"/>
+      <circle cx="745" cy="91" r="1"/>
+      <circle cx="845" cy="55" r="1.5"/>
+      <circle cx="955" cy="95" r="1"/>
+      <circle cx="1070" cy="50" r="1.5"/>
+      <circle cx="1140" cy="115" r="1"/>
+
+    </g>
+
+
+    <!-- ================================================= -->
+    <!-- MOON -->
+    <!-- ================================================= -->
+
+    <circle cx="950" cy="105" r="115"
+            fill="url(#moonGlow)"
+            filter="url(#glow)"/>
+
+    <circle cx="950" cy="105" r="43"
+            fill="#e0f2fe"/>
+
+    <circle cx="935" cy="92" r="8"
+            fill="#cbd5e1"
+            opacity=".45"/>
+
+    <circle cx="970" cy="118" r="6"
+            fill="#cbd5e1"
+            opacity=".35"/>
+
+
+    <!-- ================================================= -->
+    <!-- MOVING CLOUDS -->
+    <!-- ================================================= -->
+
+    <g fill="url(#cloud)" opacity=".9">
+
+      <g>
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0; -45 0; 0 0"
+          dur="32s"
+          repeatCount="indefinite"/>
+
+        <ellipse cx="200" cy="135" rx="150" ry="42"/>
+        <ellipse cx="300" cy="120" rx="120" ry="55"/>
+        <ellipse cx="390" cy="140" rx="150" ry="45"/>
+      </g>
+
+      <g opacity=".8">
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0; 60 0; 0 0"
+          dur="45s"
+          repeatCount="indefinite"/>
+
+        <ellipse cx="720" cy="160" rx="150" ry="40"/>
+        <ellipse cx="820" cy="145" rx="120" ry="50"/>
+        <ellipse cx="900" cy="165" rx="160" ry="45"/>
+      </g>
+
+    </g>
+
+
+    <!-- ================================================= -->
+    <!-- DISTANT MOUNTAINS -->
+    <!-- ================================================= -->
+
+    <path
+      d="M0 310
+         L120 220
+         L200 285
+         L330 190
+         L460 300
+         L590 215
+         L720 295
+         L850 205
+         L970 300
+         L1100 215
+         L1200 290
+         L1200 360
+         L0 360 Z"
+      fill="#071426"/>
+
+
+    <!-- ================================================= -->
+    <!-- WATER -->
+    <!-- ================================================= -->
+
+    <rect y="315" width="1200" height="185"
+          fill="url(#water)"/>
+
+
+    <!-- Water reflection -->
+
+    <g stroke="#60a5fa"
+       stroke-width="1"
+       opacity=".35"
+       fill="none">
+
+      <ellipse cx="950" cy="375" rx="80" ry="5">
+        <animate attributeName="rx"
+                 values="80;120;80"
+                 dur="5s"
+                 repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values=".4;0;.4"
+                 dur="5s"
+                 repeatCount="indefinite"/>
+      </ellipse>
+
+      <ellipse cx="950" cy="390" rx="120" ry="7">
+        <animate attributeName="rx"
+                 values="120;170;120"
+                 dur="6s"
+                 repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values=".25;0;.25"
+                 dur="6s"
+                 repeatCount="indefinite"/>
+      </ellipse>
+
+    </g>
+
+
+    <!-- ================================================= -->
+    <!-- RAIN -->
+    <!-- ================================================= -->
+
+    <g stroke="#93c5fd"
+       stroke-width="1"
+       opacity=".22">
+
+      <path d="M100 20 L80 100">
+        <animateTransform attributeName="transform"
+          type="translate"
+          values="0 -100; 20 500"
+          dur="1.8s"
+          repeatCount="indefinite"/>
+      </path>
+
+      <path d="M220 0 L200 90">
+        <animateTransform attributeName="transform"
+          type="translate"
+          values="0 -100; 20 500"
+          dur="2.2s"
+          repeatCount="indefinite"/>
+      </path>
+
+      <path d="M420 20 L400 110">
+        <animateTransform attributeName="transform"
+          type="translate"
+          values="0 -120; 20 500"
+          dur="2s"
+          repeatCount="indefinite"/>
+      </path>
+
+      <path d="M600 0 L580 90">
+        <animateTransform attributeName="transform"
+          type="translate"
+          values="0 -100; 20 500"
+          dur="2.4s"
+          repeatCount="indefinite"/>
+      </path>
+
+      <path d="M780 30 L760 120">
+        <animateTransform attributeName="transform"
+          type="translate"
+          values="0 -120; 20 500"
+          dur="1.9s"
+          repeatCount="indefinite"/>
+      </path>
+
+      <path d="M1080 0 L1060 100">
+        <animateTransform attributeName="transform"
+          type="translate"
+          values="0 -100; 20 500"
+          dur="2.1s"
+          repeatCount="indefinite"/>
+      </path>
+
+    </g>
+
+
+    <!-- ================================================= -->
+    <!-- HERO TEXT -->
+    <!-- ================================================= -->
+
+    <text x="600"
+          y="235"
+          text-anchor="middle"
+          font-family="Georgia, 'Times New Roman', serif"
+          font-size="55"
+          font-weight="500"
+          letter-spacing="1"
+          fill="url(#nameGradient)">
+
+      Sudhansu Sekhar Sarangi
+
+    </text>
+
+
+    <!-- subtle text glow -->
+
+    <text x="600"
+          y="235"
+          text-anchor="middle"
+          font-family="Georgia, 'Times New Roman', serif"
+          font-size="55"
+          font-weight="500"
+          letter-spacing="1"
+          fill="none"
+          stroke="#c084fc"
+          stroke-width="1"
+          opacity=".18"
+          filter="url(#textGlow)">
+
+      Sudhansu Sekhar Sarangi
+
+    </text>
+
+
+    <!-- ================================================= -->
+    <!-- SUBTITLE -->
+    <!-- ================================================= -->
+
+    <text x="600"
+          y="275"
+          text-anchor="middle"
+          font-family="Arial, sans-serif"
+          font-size="17"
+          letter-spacing="7"
+          fill="#e2e8f0">
+
+      CSE @ ITER, SOA
+
+    </text>
+
+
+    <!-- divider -->
+
+    <line x1="390" y1="295"
+          x2="810" y2="295"
+          stroke="#93c5fd"
+          stroke-opacity=".35"/>
+
+
+    <!-- ================================================= -->
+    <!-- SKILLS -->
+    <!-- ================================================= -->
+
+    <text x="600"
+          y="325"
+          text-anchor="middle"
+          font-family="Arial, sans-serif"
+          font-size="15"
+          letter-spacing="2"
+          fill="#cbd5e1">
+
+      DSA &amp; PROBLEM SOLVING
+      <tspan fill="#a78bfa"> • </tspan>
+      JAVA
+      <tspan fill="#a78bfa"> • </tspan>
+      PYTHON
+      <tspan fill="#a78bfa"> • </tspan>
+      EXPLORING AI/ML
+
+    </text>
+
+
+    <!-- ================================================= -->
+    <!-- MOTTO -->
+    <!-- ================================================= -->
+
+    <text x="600"
+          y="360"
+          text-anchor="middle"
+          font-family="Arial, sans-serif"
+          font-size="13"
+          letter-spacing="6"
+          fill="#93c5fd">
+
+      LEARN · BUILD · IMPROVE
+
+    </text>
+
+
+    <!-- ================================================= -->
+    <!-- WATER EDGE -->
+    <!-- ================================================= -->
+
+    <path
+      d="M0 390
+         C70 380 90 405 150 392
+         C220 378 250 405 320 390
+         C390 375 420 408 490 392
+         C550 378 600 410 670 394
+         C740 377 790 410 850 392
+         C920 375 970 410 1040 390
+         C1100 377 1140 405 1200 390
+         L1200 500
+         L0 500 Z"
+      fill="#020617"/>
+
+
+    <!-- ================================================= -->
+    <!-- DRIPPING WATER -->
+    <!-- ================================================= -->
+
+    <g fill="#172e52">
+
+      <path d="M72 389 C72 420 60 435 72 450 C84 435 72 420 72 389Z">
+        <animate attributeName="d"
+          values="
+          M72 389 C72 420 60 435 72 450 C84 435 72 420 72 389Z;
+          M72 389 C72 420 62 442 72 460 C82 442 72 420 72 389Z;
+          M72 389 C72 420 60 435 72 450 C84 435 72 420 72 389Z"
+          dur="4s"
+          repeatCount="indefinite"/>
+      </path>
+
+      <path d="M250 395 C250 425 242 438 250 448 C258 438 250 425 250 395Z">
+        <animate attributeName="opacity"
+          values=".5;1;.5"
+          dur="3s"
+          repeatCount="indefinite"/>
+      </path>
+
+      <path d="M550 398 C550 430 540 445 550 460 C560 445 550 430 550 398Z">
+        <animate attributeName="opacity"
+          values=".4;1;.4"
+          dur="4.5s"
+          repeatCount="indefinite"/>
+      </path>
+
+      <path d="M820 395 C820 430 810 445 820 455 C830 445 820 430 820 395Z">
+        <animate attributeName="opacity"
+          values=".6;1;.6"
+          dur="3.8s"
+          repeatCount="indefinite"/>
+      </path>
+
+      <path d="M1080 390 C1080 425 1068 440 1080 455 C1092 440 1080 425 1080 390Z">
+        <animate attributeName="opacity"
+          values=".4;1;.4"
+          dur="4.2s"
+          repeatCount="indefinite"/>
+      </path>
+
+    </g>
+
+  </g>
+
+</svg>
