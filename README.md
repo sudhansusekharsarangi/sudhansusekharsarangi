@@ -89,6 +89,11 @@ if __name__ == '__main__':
 
 ---
 
+## 📈 Contribution Activity
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=sudhansusekharsarangi&theme=tokyo-night&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true"/>
+
+---
+
 ## 📚 Currently Working On
 
 - 🌱 Learning Full-Stack Web Development
