@@ -1,14 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=Welcome%20to%20My%20GitHub&fontSize=40&fontColor=ffffff&animation=fadeIn"/>
-
-# Hi there 👋, I'm Sudhansu
-
-### 🚀 Sophomore CSE Student | Java & Python Developer | Exploring AI/ML | Learning Full-Stack Web Development
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&duration=4500&pause=1000&color=D946EF&center=true&vCenter=true&width=600&lines=Computer+Science+%26+Engineering;Java+And+Python+Developer;Full+Stack+Web+Development;Artificial+Intelligence+/+Machine+Learning;Building+Scalable+Solutions" alt="Typing SVG" />
-</div>
+<img src="./assets/hero.svg" width="100%" alt="Sudhansu Sekhar Sarangi"/>
 
 </div>
 
