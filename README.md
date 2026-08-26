@@ -44,11 +44,11 @@ if __name__ == '__main__':
           </p>
           <h4>Currently Learning</h4>
           <p>
-            <img src="https://skillicons.dev/icons?i=javascript" alt="Currently Learning Languages" />
+            <img src="https://skillicons.dev/icons?i=javascript,react" alt="Currently Learning Languages" />
           </p>
           <h4>Planning to Learn</h4>
           <p>
-            <img src="https://skillicons.dev/icons?i=react,nodejs,mongodb,pytorch" alt="Planning to Learn Languages" />
+            <img src="https://skillicons.dev/icons?i=nodejs,mongodb,pytorch" alt="Planning to Learn Languages" />
           </p>
         </td>
         <td align="center" valign="top">
@@ -71,13 +71,6 @@ if __name__ == '__main__':
 </div>
 
 ---
-
----
-
-## Commit Streak
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sudhansusekharsarangi&background=0A192F&border=003366&stroke=38BDF8&ring=38BDF8&fire=38BDF8&currStreakNum=FFFFFF&currStreakLabel=38BDF8&sideNums=FFFFFF&sideLabels=94A3B8&dates=94A3B8&hide_border=true" alt="GitHub Commit Streak" />
-</div>
 
 ---
 
