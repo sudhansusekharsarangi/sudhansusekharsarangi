@@ -72,13 +72,6 @@ if __name__ == '__main__':
 
 ---
 
-## Stats
-<p align="center">
-  <a href="https://github.com/umesh2341">
-    <img src="https://ghstats.dev/api/card?username=sudhansusekharsarangi&theme=midnight&border_radius=6" alt="umesh2341's GitHub Stats" />
-  </a>
-</p>
-
 ---
 
 ## 📈 Contribution Graph
